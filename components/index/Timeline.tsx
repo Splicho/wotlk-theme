@@ -125,7 +125,7 @@ function Timeline() {
               height={30}
               className="rounded-sm"
             />
-            <span className="text-[#b6c8d3] text-3xl font-semibold header-font drop-shadow-[0_2px_0px_rgba(0,0,0,1)]">
+            <span className="text-[#b6c8d3] text-3xl font-semibold header-font drop-shadow-[0_2px_0px_rgba(0,0,0,1)] whitespace-nowrap">
               Ruby Sanctum
             </span>
           </div>
