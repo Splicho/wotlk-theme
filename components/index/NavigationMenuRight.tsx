@@ -17,7 +17,7 @@ function NavigationMenuRight() {
         Shop
       </Link>
       <div 
-        className="relative"
+        className="relative z-[9999]"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -26,9 +26,9 @@ function NavigationMenuRight() {
           className={`font-medium flex items-center gap-x-2 rounded-md px-4 py-2 transition-all duration-150
             ${isHovered ? 'bg-slate-500' : 'hover:bg-slate-500'}`}
         >
-          <Icon icon="stash:person" width={24} />
+          <Icon icon="mdi:account" width={24} />
           Account
-          <Icon icon="stash:chevron-down" width={24} />
+          <Icon icon="mdi:chevron-down" width={24} />
         </Link>
         <div className="absolute left-1/2 -translate-x-1/2 top-full pt-2">
           <AnimatePresence>
@@ -39,15 +39,22 @@ function NavigationMenuRight() {
                 exit={{ opacity: 0, scale: 0.95, y: -5 }}
                 transition={{ duration: 0.1 }}
                 style={{ transformOrigin: 'top' }}
+                className="z-[9999]"
               >
                 <DropdownMenu className="w-72">
                   <div className="flex flex-col gap-y-2 p-3">
-                    <Link href="/" className="w-full p-2">
+                    <button 
+                      className="w-full p-2"
+                      onMouseEnter={(e) => {
+                        e.stopPropagation();
+                        setIsHovered(true);
+                      }}
+                    >
                       <Button variant="primary" className="w-full p-6">
                         <BrandSymbol className="text-white !size-6" />
                         Login
                       </Button>
-                    </Link>
+                    </button>
                     <Link href="/" className="font-medium flex items-center gap-x-2 hover:bg-slate-700 p-2 rounded-md transition-colors">
                       <div className="flex items-center gap-x-3 w-full">
                         <Icon icon="mdi:account" width={34} className="shrink-0 text-zinc-400" />

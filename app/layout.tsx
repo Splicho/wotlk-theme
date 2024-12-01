@@ -22,11 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} antialiased flex flex-col min-h-screen`}>
+      <body className={`${poppins.variable} antialiased flex flex-col min-h-screen relative`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem> 
-          <Header />
-          <main className="flex-grow container mx-auto">{children}</main> 
-          <Footer />
+          <div className="relative">
+            <Header />
+            <main className="relative">{children}</main> 
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>

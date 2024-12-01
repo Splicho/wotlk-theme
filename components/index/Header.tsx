@@ -7,7 +7,7 @@ import NavigationMenuRight from "../index/NavigationMenuRight";
 function Header() {
   return (
     <div className="flex justify-center">
-      <header className="mx-8 mt-8 p-4 rounded-lg backdrop-blur-lg relative z-50 flex items-center justify-between bg-[#060810]/35 w-full max-w-[2500px]">
+      <header className="mx-8 mt-8 p-4 rounded-lg backdrop-blur-lg relative z-[500] flex items-center justify-between bg-[#060810]/35 w-full max-w-[2500px]">
         <div className="flex items-center">
           <Link href="/">
             <Image
