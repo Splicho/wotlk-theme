@@ -1,16 +1,13 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+import { Poppins } from "next/font/google";
+import Footer from "@/components/index/Footer";
+import Header from "@/components/index/Header";
+import { ThemeProvider } from "@/components/theme-provider";
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
@@ -25,10 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${poppins.variable} antialiased flex flex-col min-h-screen`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem> 
+          <Header />
+          <main className="flex-grow container mx-auto">{children}</main> 
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
