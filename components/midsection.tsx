@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import styles from "@/components/Index/hero.module.css";
+import styles from "./hero.module.css";
 import { Icon } from "@iconify/react";
 export default function MidSection() {
   return (
