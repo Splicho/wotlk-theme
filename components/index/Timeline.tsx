@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Timeline() {
   return (
-    <div className="mt-10 mb-10 p-6 flex flex-col md:flex-row items-center justify-center gap-y-8 md:gap-x-10">
+    <div className="mb-10 p-6 flex flex-col md:flex-row items-center justify-center gap-y-8 md:gap-x-10">
       <div className="flex flex-col items-center">
         <div className="relative w-32 h-8 self-start ml-10 top-1">
           <div
