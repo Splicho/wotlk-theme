@@ -9,8 +9,8 @@ import HeroSlider from './heroslider';
 
 function Hero() {
   return (
-    <div className={`w-full min-h-screen ${styles.heroBackground}`}>
-      <div className="w-full min-h-screen flex flex-col items-center justify-center">
+    <div className={`relative w-full min-h-screen overflow-hidden ${styles.heroBackground}`}>
+      <div className="relative w-full min-h-screen flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center py-20 mt-10">
           <div>
             <Image
