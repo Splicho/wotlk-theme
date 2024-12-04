@@ -5,7 +5,7 @@ import styles from "./hero.module.css";
 import Image from "next/image";
 import Link from "next/dist/client/link";
 import Timeline from "./Timeline";
-import HeroSlider from './HeroSlider';
+import HeroSlider from './heroslider';
 
 function Hero() {
   return (

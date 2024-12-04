@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
-import DropdownMenu from "./Dropdownmenu";
+import DropdownMenu from "./dropdownmenu";
 import { AnimatePresence, motion } from "framer-motion";
 
 function Navigationmenu() {

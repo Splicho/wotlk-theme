@@ -1,5 +1,5 @@
-import Hero from "@/components/Index/Hero";
-import MidSection from "@/components/MidSection/MidSection";
+import Hero from "@/components/index/hero";
+import MidSection from "@/components/midsection/midsection";
 
 export default function Home() {
   return (

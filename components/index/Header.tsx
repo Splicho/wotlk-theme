@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Navigationmenu from "./NavigationMenuLeft";
-import NavigationMenuRight from "./NavigationMenuRight";
+import Navigationmenu from "./navigationmenuleft";
+import NavigationMenuRight from "./navigationmenuright";
 
 function Header() {
   return (
