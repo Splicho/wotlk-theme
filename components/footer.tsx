@@ -29,10 +29,10 @@ function Footer() {
           <div className="space-y-3">
             <h3 className="text-white font-medium mb-4 header-font text-lg">ACCOUNT</h3>
             <ul className="space-y-2">
-              <li><a href="/registration" className="hover:text-white text-gray-500 text-sm transition-colors">REGISTRATION</a></li>
-              <li><a href="/login" className="hover:text-white text-gray-500 text-sm transition-colors">LOGIN</a></li>
-              <li><a href="/restore-password" className="hover:text-white text-gray-500 text-sm transition-colors">RESTORE PASSWORD</a></li>
-              <li><a href="/donations" className="hover:text-white text-gray-500 text-sm transition-colors">DONATIONS</a></li>
+              <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">REGISTRATION</a></li>
+              <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">LOGIN</a></li>
+              <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">RESTORE PASSWORD</a></li>
+              <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">DONATIONS</a></li>
             </ul>
           </div>
 
@@ -40,20 +40,20 @@ function Footer() {
           <div className="space-y-3">
             <h3 className="text-white font-medium mb-4 header-font text-lg">USEFUL</h3>
             <ul className="space-y-2">
-              <li><a href="/wiki" className="hover:text-white text-gray-500 text-sm transition-colors">WIKI</a></li>
-              <li><a href="/streams" className="hover:text-white text-gray-500 text-sm transition-colors">STREAMS</a></li>
-              <li><a href="/rules" className="hover:text-white text-gray-500 text-sm transition-colors">RULES</a></li>
-              <li><a href="/support" className="hover:text-white text-gray-500 text-sm transition-colors">SUPPORT</a></li>
+              <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">WIKI</a></li>
+              <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">STREAMS</a></li>
+              <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">RULES</a></li>
+              <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">SUPPORT</a></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Links */}
         <div className="flex justify-center space-x-6 mt-8 pt-6 border-t border-[#2A3B50]">
-          <a href="/privacy-policy" className="text-sm text-gray-500 hover:text-white transition-colors">
+          <a href="/" className="text-sm text-gray-500 hover:text-white transition-colors">
             PRIVACY POLICY
           </a>
-          <a href="/user-agreement" className="text-sm text-gray-500 hover:text-white transition-colors">
+          <a href="/" className="text-sm text-gray-500 hover:text-white transition-colors">
             USER AGREEMENT
           </a>
         </div>
