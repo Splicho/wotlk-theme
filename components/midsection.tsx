@@ -21,7 +21,7 @@ export default function MidSection() {
       image: "/assets/news/news-3.jpg",
       title: "Featured Story",
       date: "March 18, 2024",
-      content: "Featured story preview. Add images, text, or any other content you'd like to display.",
+      content: "Featured story preview. Add images, text, or any other content you\'d like to display.",
     },
     {
       image: "/assets/news/news-1.jpg",
