@@ -90,7 +90,7 @@ export default function MidSection() {
           <CardContent>
             <p>
               Featured story preview. Add images, text, or any other content
-              you'd like to display.
+              you&apos;d like to display.
             </p>
           </CardContent>
           <CardFooter>
