@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navigationmenu from "./navigationmenuleft";
 import NavigationMenuRight from "./navigationmenuright";
-import MobileMenu from "./MobileMenu";
+import MobileMenu from "@/components/MobileMenu";
 function Header() {
   return (
     <div className="flex justify-center absolute top-0 left-0 right-0 z-50">
