@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Icon } from "@iconify/react";
 import DropdownMenu from "./dropdownmenu";
 import { AnimatePresence, motion } from "framer-motion";
-import BrandSymbol from "../icons/BrandSymbol";
+import BrandSymbol from "./icons/BrandSymbol";
 
 function NavigationMenuRight() {
   const [isHovered, setIsHovered] = useState(false);
