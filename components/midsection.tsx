@@ -2,6 +2,7 @@ import News from "./news";
 import styles from "./hero.module.css";
 import ServerStatus from "./serverstatus";
 import Discord from "./discord";
+import Features from "./features";
 export default function MidSection() {
   const newsItems = [
     {
@@ -40,6 +41,7 @@ export default function MidSection() {
             <Discord />
           </div>
         </div>
+        <Features />
       </div>
     </div>
   );

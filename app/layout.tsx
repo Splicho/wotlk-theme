@@ -26,7 +26,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem> 
           <div className="relative">
             <Header />
-            <main className="relative">{children}</main> 
+            <main>{children}</main> 
             <Footer />
           </div>
         </ThemeProvider>
