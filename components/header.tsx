@@ -24,6 +24,8 @@ function Header() {
         </div>
         <div className="hidden lg:block">
           <NavigationMenuRight />
+        </div>
+        <div className="lg:hidden">
           <MobileMenu />
         </div>
       </header>
