@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} antialiased flex flex-col min-h-screen relative`}>
+      <body className={`${poppins.variable} antialiased flex flex-col min-h-screen overflow-x-hidden`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem> 
           <div className="relative">
             <Header />
