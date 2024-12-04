@@ -14,7 +14,7 @@ import BrandSymbol from "./icons/BrandSymbol";
 
 function MobileMenu() {
   return (
-    <Sheet>s
+    <Sheet>
       <SheetTrigger asChild>
         <Button variant="ghost" size="icon" className="lg:hidden">
         <Icon icon="ci:hamburger-lg" className="h-12 w-12" />
