@@ -25,7 +25,7 @@ function Navigationmenu() {
         Information
       </Link>
       <Link
-        href="/"
+        href="/news"
         className="font-medium hover:bg-slate-500 rounded-md px-4 py-2 transition-all duration-150"
       >
         News

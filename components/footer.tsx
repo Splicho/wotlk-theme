@@ -17,7 +17,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto text-center">
           {/* Main Column */}
           <div className="space-y-3">
-            <h3 className="text-white font-medium mb-4 header-font text-lg">MAIN</h3>
+            <div className="text-white font-medium mb-4 header-font text-lg">MAIN</div>
             <ul className="space-y-2">
               <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">HOME</a></li>
               <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">ABOUT</a></li>
@@ -27,7 +27,7 @@ function Footer() {
 
           {/* Account Column */}
           <div className="space-y-3">
-            <h3 className="text-white font-medium mb-4 header-font text-lg">ACCOUNT</h3>
+            <div className="text-white font-medium mb-4 header-font text-lg">ACCOUNT</div>
             <ul className="space-y-2">
               <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">REGISTRATION</a></li>
               <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">LOGIN</a></li>
@@ -38,7 +38,7 @@ function Footer() {
 
           {/* Useful Column */}
           <div className="space-y-3">
-            <h3 className="text-white font-medium mb-4 header-font text-lg">USEFUL</h3>
+            <div className="text-white font-medium mb-4 header-font text-lg">USEFUL</div>
             <ul className="space-y-2">
               <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">WIKI</a></li>
               <li><a href="/" className="hover:text-white text-gray-500 text-sm transition-colors">STREAMS</a></li>

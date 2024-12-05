@@ -26,7 +26,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem> 
           <div className="relative">
             <Header />
-            <main>{children}</main> 
+            <main className="flex-grow">{children}</main> 
             <Footer />
           </div>
         </ThemeProvider>
