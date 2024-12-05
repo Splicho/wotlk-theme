@@ -79,10 +79,42 @@ export default async function NewsPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
                 <Link href={`/news/${post.slug}`} className="absolute inset-0">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
+                    {post.categories && (
+                      <span className="inline-block px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-300 uppercase font-semibold mb-3">
+                        {post.categories}
+                      </span>
+                    )}
                     <h3 className="header-font text-xl md:text-2xl mb-2 text-white">
                       {post.title}
                     </h3>
-                    <p className="text-sm text-gray-200 mb-2">Posted on {post.date}</p>
+                    <div className="flex items-center gap-4 text-sm text-gray-200 mb-2">
+                      <div className="flex items-center gap-1">
+                        <Icon icon="uil:calendar-alt" />
+                        {new Date(post.date).toLocaleDateString('en-US', { 
+                          month: 'long', 
+                          day: 'numeric', 
+                          year: 'numeric' 
+                        })}
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Icon icon="uil:clock" />
+                        {post.readTime} min read
+                      </div>
+                      {post.author && (
+                        <div className="flex items-center gap-2">
+                          {post.authorImage && (
+                            <Image
+                              src={post.authorImage}
+                              alt={post.author}
+                              width={24}
+                              height={24}
+                              className="rounded-full"
+                            />
+                          )}
+                          <span>{post.author}</span>
+                        </div>
+                      )}
+                    </div>
                     <p className="text-gray-200 mb-4 line-clamp-2">
                       {post.excerpt}
                     </p>
