@@ -78,7 +78,7 @@ export default async function NewsSlugPage({
 
   return (
     <article className={`${styles.midSection}`}>
-      <div className="container mx-auto mt-44 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 max-w-4xl mx-auto">
           <div className="flex flex-col justify-center items-center">
             <span className="flex items-center flex-wrap justify-center gap-2 mb-4">

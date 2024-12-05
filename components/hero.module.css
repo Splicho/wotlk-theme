@@ -10,6 +10,8 @@
     background-image: url('/assets/background/mid_section_background.png');
     background-size: cover;
     background-position: center;
+    background-position-y: 0;
     background-repeat: no-repeat;
     min-height: 100vh;
+    padding-top: 11rem;
 }

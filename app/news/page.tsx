@@ -57,7 +57,7 @@ export default async function NewsPage() {
 
   return (
     <div className={`${styles.midSection}`}>
-        <div className="container mx-auto mt-44 p-10">
+        <div className="container mx-auto p-10">
             <h1 className="header-font text-5xl font-bold mb-4 text-center">Latest News</h1>
             <p className="text-center text-gray-400 mb-20">Stay updated with the latest news and announcements from our server.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-[400px] gap-6">
