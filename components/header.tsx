@@ -6,8 +6,8 @@ import NavigationMenuRight from "./navigationmenuright";
 import MobileMenu from "./MobileMenu";
 function Header() {
   return (
-    <div className="flex justify-center absolute top-0 left-0 right-0 z-50">
-      <header className="mx-4 sm:mx-8 mt-8 p-4 rounded-lg backdrop-blur-lg relative flex items-center justify-between bg-[#060810]/35 w-full max-w-[2500px]">
+    <div className="flex justify-center fixed top-4 left-0 right-0 z-50">
+      <header className="mx-4 sm:mx-8 p-4 rounded-lg backdrop-blur-lg relative flex items-center justify-between bg-[#060810]/35 w-full max-w-[2500px]">
         <div className="flex items-center">
           <Link href="/">
             <Image
