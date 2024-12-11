@@ -26,7 +26,7 @@ function MobileMenu() {
             <Link href="/" className="font-medium p-2 hover:bg-slate-900 rounded-md">
               Home
             </Link>
-            <Link href="/" className="font-medium p-2 hover:bg-slate-900 rounded-md">
+            <Link href="/information" className="font-medium p-2 hover:bg-slate-900 rounded-md">
               Information
             </Link>
             <Link href="/" className="font-medium p-2 hover:bg-slate-900 rounded-md">
